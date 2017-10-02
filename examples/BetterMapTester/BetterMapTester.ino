@@ -1,9 +1,9 @@
-#include "Arduino.h"
-#include "Streaming.h"
-#include "BetterMap.h"
+#include <Arduino.h>
+#include <Streaming.h>
+#include <BetterMap.h>
 
 
-const int BAUDRATE = 9600;
+const long BAUDRATE = 115200;
 
 const int in_min = 0;
 const int in_max = 1023;
