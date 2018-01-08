@@ -3,7 +3,7 @@
 #include <BetterMap.h>
 
 
-const long BAUDRATE = 115200;
+const long BAUD = 115200;
 
 const int in_min = 0;
 const int in_max = 1023;
@@ -12,7 +12,7 @@ const int out_max = 15;
 
 void setup()
 {
-  Serial.begin(BAUDRATE);
+  Serial.begin(BAUD);
   delay(2000);
   Serial << "map(" << in_min << ".." << in_max << ", ";
   Serial << in_min << ", " << in_max << ", ";
