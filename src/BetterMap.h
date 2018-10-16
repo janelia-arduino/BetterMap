@@ -10,6 +10,10 @@
 #include "Arduino.h"
 
 
-long betterMap(long x, long in_min, long in_max, long out_min, long out_max);
+long betterMap(long x,
+  long in_min,
+  long in_max,
+  long out_min,
+  long out_max);
 
 #endif
