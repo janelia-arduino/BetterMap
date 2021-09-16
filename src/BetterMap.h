@@ -3,7 +3,7 @@
 //
 //
 // Authors:
-// Peter Polidoro peterpolidoro@gmail.com
+// Peter Polidoro peter@polidoro.io
 // ----------------------------------------------------------------------------
 #ifndef BETTER_MAP_H
 #define BETTER_MAP_H
